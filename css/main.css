@@ -3,7 +3,7 @@
 	height: 300px;
 }
 
-title{
+h1{
 	text-align:center;
 	font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;
 	color:black;
@@ -36,4 +36,9 @@ html{
 	height:100%;
 	margin-bottom:1px;
 }
+
+body{
+	background-color:#FFA500;
+}
+
 
