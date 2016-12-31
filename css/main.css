@@ -30,7 +30,7 @@ a:hover{
 	margin-right:auto;
 	text-align:left;
 	background-color: #FFA500;
-	background-image: url("/images/background_image.jpg");
+	background-image: url("../images/synacor_logo.jpg");
 }
 
 html{
@@ -39,7 +39,7 @@ html{
 }
 
 body{
-	background-image: url("/images/background_image.jpg");
+	background-image: url("../images/background_image.jpg");
 	background-size:cover;
 }
 
