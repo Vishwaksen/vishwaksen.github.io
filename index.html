@@ -6,7 +6,13 @@
 		<meta name="keywords" content="Personal Website with a Responsive Layout">
 		<meta name="author" content="Vishwaksen Mane">
 		<title> Vishwaksen's Personal Website | Welcome</title>
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript">
+		   (function(){
+		      emailjs.init("user_bnIpsF6nKLnSVQEbWFaMS");
+		   })();
+		</script>
 	</head>
 	
 	<body>
@@ -28,19 +34,10 @@
 	 <section id="showcase"> 	
 		<div class="container">
 			<h1> Welcome Folks !! </h1>
-			<p> Passionate Software Developer who loves to juggle things and develop scalable applications</p>
+			<p> Passionate Software Developer who loves to juggle things and develop scalable applications.</p>
+			<p>I’m technically proficient, easy to work with and I’m always open to expand my skills and knowledge through new opportunities.</p>
 		</div>
      </section>
-
-	 <section id="send_message">
-		<div class="container">
-			<h1> Drop me an Email </h1>
-			<form>
-				<input type="text" placeholder="Enter Message">
-				<button type="submit" class="send_message_button">Send Mail</button>
-			</form>
-		</div>
-	 </section>
 
 	 <section id="boxes">
 		<div class="container">
@@ -65,43 +62,54 @@
 					</li>
 				</ul>
 			</div>
+			<!--<div class="box">
+				<form id="viewResume">
+					<input type="button" class="send_message_button" id="view_resume" value="View Resume" />
+				</form>
+			</div>-->
 		</div>
 	 </section>
 
-	 <footer class="footer">
-	 	<section id = "contact">
-		 	<h4>Contact Details</h4>
-		 	<p>Email ID : vishwaks@buffalo.edu</p>
-	 		<p>Phone    : +1 716-424-8779</p>
-	 	</section>
-	 	<section id = "footer_class">
-	 		<p>Vishwaksen's Personal Webpage, Copyright &copy; 2017</p>
-	 	</section>
-	 </footer>	
-
+	 <div class="footer">
+	 	<section id="footer_send_message">
+	 	<div class="footerText">
+	 		<h3> Just shoot me an E-Mail and we can get the ball rolling. What are you waiting for? </h3>
+			<div class = "contactDetails">
+				<ul>
+					<!--<li><strong><span id="contact">Contact</span></strong></li> -->
+		 			<li>Email : vishwaksen.mane@gmail.com</li><br>
+	 				<li>Cell  : +1 716-424-8779</li>
+	 			</ul>
+	 		</div> <br><br><br><br><br>
+	 		<div class = "copyright">
+	 			<p>&copy; 2017 Vishwaksen Mane | Design and Development. All Rights Reserved.</p>
+		 	</div>
+		 </div>
+		 <div class="mail_image">
+		 	<img src="images/mail.JPG" alt="Send E-mail Image">
+		 </div>
+		 <aside id="sidebar">
+		 	<div id="message">
+		 		<!--<h3>Contact Me</h3>--><br>
+		 		<form class="contact_form">
+		 			<div>
+		 				<label>Name</label><br>
+		 				<input type="text" placeholder="Enter your Name">
+		 			</div>
+		 			<div>
+		 				<label>Email</label><br>
+		 				<input type="email" placeholder="Enter your Email Address">
+		 			</div>
+		 			<div>
+		 				<label>Message</label><br>
+		 				<textarea placeholder="Enter your Message"></textarea>
+		 			</div>
+		 			<button class="send_mail_button" type="submit">Send E-Mail </button>
+		 		</form>
+		 	</div>
+		 </aside>
+		 </section>
+	 </div>	
+	 <script type="text/javascript" src="script/script.js"> </script>
 	</body>
 </html>
-
-<!--
-
-	<div class="main">
-	 <table>
-	   <tbody>
-	     <tr>
-		<td> <img src="images/synacor_logo.jpg" alt="Synacor Logo" width="250px" height="125px" align="center"/> </td>
-		<td> <p> <b>Software Engineer Intern</b> at <a href="http://www.synacor.com"><b>Synacor</b></a> : June 2016 - December 2016</p> </td>
-    	     </tr>
-	     <tr>
-		<td> <img src="images/lntinfotech_logo.jpg" alt="LntInfotech Logo" width="250px" height="125px" align="center"/> </td>
-		<td> <p> <b>Software Engineer</b> at <a href="http://www.lntinfotech.com"><b>Larsen and Toubro Infotech</b></a>  : Aug 2013 - Aug 2015</p> </td>
-	     </tr>
-	   </tbody>
-	 </table>
-
-	</div> 
-
-	</body>
-
-</html> -->
-
-
