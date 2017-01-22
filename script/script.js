@@ -1,3 +1,7 @@
+/*
+  Author : Vishwaksen
+*/
+
 // Send Email
 document.getElementById("myForm").addEventListener('submit', sendEmail);
 
