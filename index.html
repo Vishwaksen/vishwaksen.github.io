@@ -7,8 +7,8 @@
 		<meta name="author" content="Vishwaksen Mane">
 		<title> Vishwaksen's Personal Website | Welcome</title>
 		<link rel="stylesheet" href="css/style.css">
-		<script src="script/jquery-3.1.1.min"> </script>
-		<script type="text/javascript" src="script/script.js"> </script>
+		<script src="script/jquery-3.1.1.min.js"> </script>
+		<!--<script type="text/javascript" src="script/script.js"> </script>-->
 		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 		<script type="text/javascript">
 		   (function(){
@@ -96,15 +96,15 @@
 		 		<form class="contact_form">
 		 			<div>
 		 				<label>Name</label><br>
-		 				<input type="text" placeholder="Enter your Name">
+		 				<input type="text" placeholder="Enter your Name" id="email_name">
 		 			</div>
 		 			<div>
 		 				<label>Email</label><br>
-		 				<input type="email" placeholder="Enter your Email Address">
+		 				<input type="email" placeholder="Enter your Email Address" id="email_id">
 		 			</div>
 		 			<div>
 		 				<label>Message</label><br>
-		 				<textarea placeholder="Enter your Message"></textarea>
+		 				<textarea placeholder="Enter your Message" id="email_content"></textarea>
 		 			</div>
 		 			<button class="send_mail_button" type="submit">Send E-Mail </button>
 		 		</form>
